@@ -1,7 +1,22 @@
 {
   "type": "FeatureCollection",
   "features": [
-    {
+{
+      "type": "Feature",
+      "properties": {
+        "title": "Murray Hill: Third Avenue between 38th and 39th Street",
+        "rating": "yellow",
+        "url": "https://bytheblock.net/p/murray-hill-third-avenue-between-38th-and-39th-street"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.975842, 40.748871],
+          [-73.976306, 40.748256]
+        ]
+      }
+    },    
+{
       "type": "Feature",
       "properties": {
         "title": "Murray Hill: 39th St. between Park and Lexington",
