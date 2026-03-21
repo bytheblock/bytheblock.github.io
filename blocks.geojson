@@ -4,7 +4,22 @@
 {
       "type": "Feature",
       "properties": {
-        "title": "Midtown East: East 44th Street between 5th and Madison ",
+        "title": "Turtle Bay: 48th Street between 3rd and 2nd",
+        "rating": "yellow",
+        "url": "https://bytheblock.net/p/turtle-bay-48th-street-between-3rd-and-2nd-avenues"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.971532, 40.754502],
+          [-73.969526, 40.753664]
+        ]
+      }
+    },  
+{
+      "type": "Feature",
+      "properties": {
+        "title": "Midtown East: East 44th Street between 5th and Madison",
         "rating": "yellow",
         "url": "https://bytheblock.net/p/midtown-east-east-44th-street-between-5th-and-madison"
       },
