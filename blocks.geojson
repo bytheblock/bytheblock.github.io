@@ -4,6 +4,21 @@
 {
       "type": "Feature",
       "properties": {
+        "title": "East Village: St. Marks Place between 1st Avenue and Avenue A.",
+        "rating": "green",
+        "url": "https://bytheblock.net/p/east-village-st-marks-place-between-1st-avenue-and-avenue-a"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.985211, 40.727558],
+          [-73.983130, 40.726684]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
         "title": "Murray Hill: Park Avenue between 37th and 38th",
         "rating": "yellow",
         "url": "https://bytheblock.net/p/murray-hill-park-avenue-between-37th-and-38th-street"
