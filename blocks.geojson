@@ -4,6 +4,21 @@
 {
       "type": "Feature",
       "properties": {
+        "title": "Murray Hill: Park Avenue between 37th and 38th",
+        "rating": "yellow",
+        "url": "https://bytheblock.net/p/murray-hill-park-avenue-between-37th-and-38th-street"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.979530, 40.749611],
+          [-73.979962, 40.748999]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
         "title": "Turtle Bay: 48th Street between 3rd and 2nd",
         "rating": "yellow",
         "url": "https://bytheblock.net/p/turtle-bay-48th-street-between-3rd-and-2nd-avenues"
