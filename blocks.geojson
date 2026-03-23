@@ -22,7 +22,8 @@
       "properties": {
         "title": "Times Square: 44th Street between 6th and Broadway",
         "rating": "yellow",
-        "url": "https://bytheblock.net/p/times-square-44th-street-between-6th-and-broadway"
+        "url": "https://bytheblock.net/p/times-square-44th-street-between-6th-and-broadway",
+"linkText": "Getting lost on the sawdust trail"
       },
       "geometry": {
         "type": "LineString",
