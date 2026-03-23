@@ -38,7 +38,8 @@
       "properties": {
         "title": "East Village: St. Marks Place between 1st Avenue and Avenue A.",
         "rating": "green",
-        "url": "https://bytheblock.net/p/east-village-st-marks-place-between-1st-avenue-and-avenue-a"
+        "url": "https://bytheblock.net/p/east-village-st-marks-place-between-1st-avenue-and-avenue-a",
+"linkText": "Walking the mosaic trail"
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +54,8 @@
       "properties": {
         "title": "Murray Hill: Park Avenue between 37th and 38th",
         "rating": "yellow",
-        "url": "https://bytheblock.net/p/murray-hill-park-avenue-between-37th-and-38th-street"
+        "url": "https://bytheblock.net/p/murray-hill-park-avenue-between-37th-and-38th-street",
+"linkText": "Nordic wares, bears, and affairs (both diplomatic and otherwise)"
       },
       "geometry": {
         "type": "LineString",
@@ -68,7 +70,8 @@
       "properties": {
         "title": "Turtle Bay: 48th Street between 3rd and 2nd",
         "rating": "yellow",
-        "url": "https://bytheblock.net/p/turtle-bay-48th-street-between-3rd-and-2nd-avenues"
+        "url": "https://bytheblock.net/p/turtle-bay-48th-street-between-3rd-and-2nd-avenues",
+"linkText": "A daring diplo, a secret garden, and a chess board cherrypicker"
       },
       "geometry": {
         "type": "LineString",
@@ -83,7 +86,8 @@
       "properties": {
         "title": "Midtown East: East 44th Street between 5th and Madison",
         "rating": "yellow",
-        "url": "https://bytheblock.net/p/midtown-east-east-44th-street-between-5th-and-madison"
+        "url": "https://bytheblock.net/p/midtown-east-east-44th-street-between-5th-and-madison",
+"linkText": "A buttoned-up block with an unsuitable past"
       },
       "geometry": {
         "type": "LineString",
@@ -98,7 +102,8 @@
       "properties": {
         "title": "Murray Hill: Third Avenue between 38th and 39th",
         "rating": "yellow",
-        "url": "https://bytheblock.net/p/murray-hill-third-avenue-between-38th-and-39th-street"
+        "url": "https://bytheblock.net/p/murray-hill-third-avenue-between-38th-and-39th-street",
+"linkText": "She sold sea shells."
       },
       "geometry": {
         "type": "LineString",
