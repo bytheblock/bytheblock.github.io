@@ -95,14 +95,16 @@
 
   function onEachFeature(feature, layer) {
     const props = feature.properties;
-    const popupHtml = `
-      <div>
-        <div><strong>${props.title}</strong></div>
-        <a class="popup-link" href="${props.url}" target="_blank" rel="noopener noreferrer">
-          Read post
-        </a>
-      </div>
-    `;
+const linkText = props.linkText || 'Read post';
+
+const popupHtml = `
+  <div>
+    <div><strong>${props.title}</strong></div>
+    <a class="popup-link" href="${props.url}" target="_blank" rel="noopener noreferrer">
+      ${linkText}
+    </a>
+  </div>
+`;
     layer.bindPopup(popupHtml);
 
     layer.on('mouseover', function () {
