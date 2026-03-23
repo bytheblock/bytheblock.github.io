@@ -4,6 +4,21 @@
 {
       "type": "Feature",
       "properties": {
+        "title": "Chinatown: Mott Street between Canal and Bayard",
+        "rating": "green",
+        "url": "https://bytheblock.net/p/chinatown-mott-street-between-canal-and-bayard-streets"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.997802, 40.716777],
+          [-73.998472, 40.715645]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
         "title": "Times Square: 44th Street between 6th and Broadway",
         "rating": "yellow",
         "url": "https://bytheblock.net/p/times-square-44th-street-between-6th-and-broadway"
