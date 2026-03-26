@@ -4,6 +4,22 @@
 {
       "type": "Feature",
       "properties": {
+        "title": "Garment District: 37th Street between 5th and 6th",
+        "rating": "green",
+        "url": "https://bytheblock.net/p/garment-district-37th-street-between-5th-and-6th",
+"linkText": "Bridging the analog and digital. "
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.983194, 40.750373],
+          [-73.986332, 40.751687]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
         "title": "Cobble Hill: Court Street between Kane and DeGraw",
         "rating": "green",
         "url": "https://bytheblock.net/p/cobble-hill-court-street-between-kane-and-degraw-streets",
