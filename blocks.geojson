@@ -4,8 +4,24 @@
 {
       "type": "Feature",
       "properties": {
-        "title": "Garment District: 37th Street between 5th and 6th",
+        "title": "Cobble Hill: Bergen Street between Court and Smith",
         "rating": "green",
+        "url": "https://bytheblock.net/p/cobble-hill-bergen-street-between-court-and-smith",
+"linkText": "Every invisible dog has its day."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.990474, 40.686734],
+          [-73.993247, 40.687842]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
+        "title": "Garment District: 37th Street between 5th and 6th",
+        "rating": "yellow",
         "url": "https://bytheblock.net/p/garment-district-37th-street-between-5th-and-6th",
 "linkText": "Bridging the analog and digital. "
       },
