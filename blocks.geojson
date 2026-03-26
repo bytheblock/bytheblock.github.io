@@ -4,6 +4,22 @@
 {
       "type": "Feature",
       "properties": {
+        "title": "Cobble Hill: Court Street between Kane and DeGraw",
+        "rating": "green",
+        "url": "https://bytheblock.net/p/cobble-hill-court-street-between-kane-and-degraw-streets",
+"linkText": "Between the saints of stage and celluloid"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.994427, 40.685432],
+          [-73.995253, 40.683756]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
         "title": "Chinatown: Mott Street between Canal and Bayard",
         "rating": "green",
         "url": "https://bytheblock.net/p/chinatown-mott-street-between-canal-and-bayard-streets",
