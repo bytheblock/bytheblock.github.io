@@ -4,10 +4,10 @@
 {
       "type": "Feature",
       "properties": {
-        "title": "Cobble Hill: Bergen Street between Court and Smith",
+        "title": "Cobble Hill: Every invisible dog has its day",
         "rating": "green",
         "url": "https://bytheblock.net/p/cobble-hill-bergen-street-between-court-and-smith",
-"linkText": "Every invisible dog has its day."
+"linkText": "Bergen Street between Court and Smith"
       },
       "geometry": {
         "type": "LineString",
@@ -20,10 +20,10 @@
 {
       "type": "Feature",
       "properties": {
-        "title": "Garment District: 37th Street between 5th and 6th",
+        "title": "Garment District: Bridging the analog and digital.",
         "rating": "yellow",
         "url": "https://bytheblock.net/p/garment-district-37th-street-between-5th-and-6th",
-"linkText": "Bridging the analog and digital. "
+"linkText": "37th Street between 5th and 6th"
       },
       "geometry": {
         "type": "LineString",
@@ -36,10 +36,10 @@
 {
       "type": "Feature",
       "properties": {
-        "title": "Cobble Hill: Court Street between Kane and DeGraw",
+        "title": "Cobble Hill: Between the saints of stage and celluloid",
         "rating": "green",
         "url": "https://bytheblock.net/p/cobble-hill-court-street-between-kane-and-degraw-streets",
-"linkText": "Between the saints of stage and celluloid"
+"linkText": "Court Street between Kane and DeGraw"
       },
       "geometry": {
         "type": "LineString",
@@ -52,10 +52,10 @@
 {
       "type": "Feature",
       "properties": {
-        "title": "Chinatown: Mott Street between Canal and Bayard",
+        "title": "Chinatown: Chinatown's Main Street",
         "rating": "green",
         "url": "https://bytheblock.net/p/chinatown-mott-street-between-canal-and-bayard-streets",
-"linkText": "Chinatown's Main Street"
+"linkText": "Mott Street between Canal and Bayard"
       },
       "geometry": {
         "type": "LineString",
@@ -68,10 +68,10 @@
 {
       "type": "Feature",
       "properties": {
-        "title": "Times Square: 44th Street between 6th and Broadway",
+        "title": "Times Square: Getting lost on the sawdust trail",
         "rating": "yellow",
         "url": "https://bytheblock.net/p/times-square-44th-street-between-6th-and-broadway",
-"linkText": "Getting lost on the sawdust trail"
+"linkText": "44th Street between 6th and Broadway"
       },
       "geometry": {
         "type": "LineString",
@@ -84,10 +84,10 @@
 {
       "type": "Feature",
       "properties": {
-        "title": "East Village: St. Marks Place between 1st Avenue and Avenue A.",
+        "title": "East Village: Walking the mosaic trail",
         "rating": "green",
         "url": "https://bytheblock.net/p/east-village-st-marks-place-between-1st-avenue-and-avenue-a",
-"linkText": "Walking the mosaic trail"
+"linkText": "St. Marks Place between 1st Avenue and Avenue A"
       },
       "geometry": {
         "type": "LineString",
