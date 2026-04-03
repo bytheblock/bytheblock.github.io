@@ -116,10 +116,10 @@
 {
       "type": "Feature",
       "properties": {
-        "title": "Turtle Bay: 48th Street between 3rd and 2nd",
+        "title": "Turtle Bay: A daring diplo, a secret garden, and a chess board cherrypicker",
         "rating": "yellow",
         "url": "https://bytheblock.net/p/turtle-bay-48th-street-between-3rd-and-2nd-avenues",
-"linkText": "A daring diplo, a secret garden, and a chess board cherrypicker"
+"linkText": "48th Street between 3rd and 2nd"
       },
       "geometry": {
         "type": "LineString",
@@ -132,10 +132,10 @@
 {
       "type": "Feature",
       "properties": {
-        "title": "Midtown East: East 44th Street between 5th and Madison",
+        "title": "Midtown East: A buttoned-up block with an unsuitable past",
         "rating": "yellow",
         "url": "https://bytheblock.net/p/midtown-east-east-44th-street-between-5th-and-madison",
-"linkText": "A buttoned-up block with an unsuitable past"
+"linkText": "East 44th Street between 5th and Madison"
       },
       "geometry": {
         "type": "LineString",
@@ -148,10 +148,10 @@
 {
       "type": "Feature",
       "properties": {
-        "title": "Murray Hill: Third Avenue between 38th and 39th",
+        "title": "Murray Hill: She sold sea shells",
         "rating": "yellow",
         "url": "https://bytheblock.net/p/murray-hill-third-avenue-between-38th-and-39th-street",
-"linkText": "She sold sea shells."
+"linkText": "Third Avenue between 38th and 39th"
       },
       "geometry": {
         "type": "LineString",
@@ -164,9 +164,11 @@
 {
       "type": "Feature",
       "properties": {
-        "title": "Murray Hill: 39th St. between Park and Lexington",
+        "title": "Murray Hill: A lost lasagna",
         "rating": "yellow",
-        "url": "https://bytheblock.net/p/murray-hill-39th-st-between-park-and-lexington"
+        "url": "https://bytheblock.net/p/murray-hill-39th-st-between-park-and-lexington",
+"linkText": "39th St. between Park and Lexington"
+
       },
       "geometry": {
         "type": "LineString",
