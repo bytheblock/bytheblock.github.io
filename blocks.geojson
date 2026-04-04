@@ -4,6 +4,22 @@
 {
       "type": "Feature",
       "properties": {
+        "title": "Lower East Side: Candyland meets gangland",
+        "rating": "green",
+        "url": "https://bytheblock.net/p/lower-east-side-candyland-meets-gangland",
+"linkText": "Rivington between Essex and Ludlow Streets"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.987572, 40.719839],
+          [-73.988352, 40.720077]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
         "title": "Cobble Hill: Every invisible dog has its day",
         "rating": "green",
         "url": "https://bytheblock.net/p/cobble-hill-bergen-street-between-court-and-smith",
@@ -100,10 +116,10 @@
 {
       "type": "Feature",
       "properties": {
-        "title": "Murray Hill: Park Avenue between 37th and 38th",
+        "title": "Nordic wares, bears, and affairs (both diplomatic and otherwise",
         "rating": "yellow",
         "url": "https://bytheblock.net/p/murray-hill-park-avenue-between-37th-and-38th-street",
-"linkText": "Nordic wares, bears, and affairs (both diplomatic and otherwise)"
+"linkText": "Murray Hill: Park Avenue between 37th and 38th"
       },
       "geometry": {
         "type": "LineString",
@@ -181,9 +197,10 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Greenwich Village: Bleecker St. between Thompson and Sullivan",
+        "title": "Greenwich Village: The Slide, toxic drinks, and falling furniture",
         "rating": "green",
-        "url": "https://bytheblock.net/p/greenwich-village-bleecker-st-between-thompson-and-sullivan"
+        "url": "https://bytheblock.net/p/greenwich-village-bleecker-st-between-thompson-and-sullivan",
+"linkText": "Bleecker St. between Thompson and Sullivan"
       },
       "geometry": {
         "type": "LineString",
