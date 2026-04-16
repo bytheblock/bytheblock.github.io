@@ -4,6 +4,22 @@
 {
       "type": "Feature",
       "properties": {
+        "title": "Kips Bay: A paradise found in the yellow of cabs and the green of a tree",
+        "rating": "yellow",
+        "url": "https://bytheblock.net/p/kips-bay-a-paradise-found-in-the-yellow-of-cabs-and-the-green-of-a-tree",
+"linkText": "Lexington Ave between 30th and 31st Streets"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.981121, 40.744492],
+          [-73.981569, 40.743891]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
         "title": "Lower East Side: Candyland meets gangland",
         "rating": "green",
         "url": "https://bytheblock.net/p/lower-east-side-candyland-meets-gangland",
