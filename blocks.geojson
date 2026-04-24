@@ -4,6 +4,22 @@
 {
       "type": "Feature",
       "properties": {
+        "title": "West Village: One New York romance that needed some firmer boundaries",
+        "rating": "green",
+        "url": "https://bytheblock.net/p/west-village-one-new-york-romance-that-needed-some-firmer-boundaries",
+"linkText": "Lexington Ave between 30th and 31st Streets"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-74.003362, 40.735526],
+          [-74.004909, 40.735293]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
         "title": "Kips Bay: A paradise found in the yellow of cabs and the green of a tree",
         "rating": "yellow",
         "url": "https://bytheblock.net/p/kips-bay-a-paradise-found-in-the-yellow-of-cabs-and-the-green-of-a-tree",
