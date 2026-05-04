@@ -4,6 +4,22 @@
 {
       "type": "Feature",
       "properties": {
+        "title": "Lower East Side: The Bloody Bucket, a Socialist Skyscraper, and the Mothers' Riot ",
+        "rating": "green",
+        "url": "https://bytheblock.net/p/lower-east-side-the-bloody-bucket-a-socialist-skyscraper-and-the-mothers-riot",
+"linkText": "East Broadway between Jefferson and Rutgers Streets"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.988720, 40.714167],
+          [-73.990138, 40.714057]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
         "title": "West Village: One New York romance that needed some firmer boundaries",
         "rating": "green",
         "url": "https://bytheblock.net/p/west-village-one-new-york-romance-that-needed-some-firmer-boundaries",
