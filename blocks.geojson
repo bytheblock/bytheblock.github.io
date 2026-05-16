@@ -4,6 +4,22 @@
 {
       "type": "Feature",
       "properties": {
+        "title": "Midtown: Hemingway's Chest Hair Challenge",
+        "rating": "green",
+        "url": "https://bytheblock.net/p/midtown-hemingway-s-chest-hair-challenge",
+"linkText": "Fifth Avenue between 48th and 49th Streets"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.978093, 40.757306],
+          [-73.977647, 40.757894]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
         "title": "Lower East Side: The Bloody Bucket, a Socialist Skyscraper, and the Mothers' Riot ",
         "rating": "green",
         "url": "https://bytheblock.net/p/lower-east-side-the-bloody-bucket-a-socialist-skyscraper-and-the-mothers-riot",
