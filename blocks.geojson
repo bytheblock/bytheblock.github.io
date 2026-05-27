@@ -4,6 +4,22 @@
 {
       "type": "Feature",
       "properties": {
+        "title": "Long Island City: Copper the cooping cat",
+        "rating": "yellow",
+        "url": "https://bytheblock.net/p/long-island-city-copper-the-cooping-cat",
+"linkText": "50th Avenue between Vernon Blvd and 5th Street"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.954162, 40.742738],
+          [-73.956399, 40.743204]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
         "title": "Midtown: Hemingway's Chest Hair Challenge",
         "rating": "yellow",
         "url": "https://bytheblock.net/p/midtown-hemingway-s-chest-hair-challenge",
