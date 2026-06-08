@@ -4,6 +4,22 @@
 {
       "type": "Feature",
       "properties": {
+        "title": "Midtown East: Red tape and little white lies",
+        "rating": "green",
+        "url": "https://bytheblock.net/p/midtown-east-red-tape-and-little-white-lies",
+"linkText": "East 53rd Street between Second and Third Avenues"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.969306, 40.757701],
+          [-73.967251, 40.756787]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
         "title": "Long Island City: Copper the cooping cat",
         "rating": "yellow",
         "url": "https://bytheblock.net/p/long-island-city-copper-the-cooping-cat",
