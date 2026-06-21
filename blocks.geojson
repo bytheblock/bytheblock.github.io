@@ -4,6 +4,22 @@
 {
       "type": "Feature",
       "properties": {
+        "title": "Williamsburg: Relics, reproductions, and reinventions",
+        "rating": "green",
+        "url": "https://bytheblock.net/p/williamsburg-relics-reproductions-and-reinventions",
+"linkText": "Metropolitan Ave. between Havemeyer Street and Marcy Ave."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.955948, 40.714098],
+          [-73.954360, 40.714090]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
         "title": "Midtown East: Red tape and little white lies",
         "rating": "green",
         "url": "https://bytheblock.net/p/midtown-east-red-tape-and-little-white-lies",
