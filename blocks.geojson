@@ -4,6 +4,22 @@
 {
       "type": "Feature",
       "properties": {
+        "title": "Chelsea: Snacks, lost teeth, and foul furs",
+        "rating": "yellow",
+        "url": "https://bytheblock.net/p/chelsea-snacks-lost-teeth-and-foul-furs",
+"linkText": "Sixth Avenue between 21st and 22nd Streets"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.993722, 40.741628],
+          [-73.993295, 40.742232]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
         "title": "Midtown East: Uncovering an Urban Eden",
         "rating": "green",
         "url": "https://bytheblock.net/p/midtown-east-uncovering-an-urban-eden",
