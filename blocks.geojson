@@ -4,6 +4,22 @@
 {
       "type": "Feature",
       "properties": {
+        "title": "Williamsburg: Lost time under the bridge",
+        "rating": "green",
+        "url": "https://bytheblock.net/p/williamsburg-lost-time-under-the-bridge",
+"linkText": "South 6th Street between Bedford and Berry"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.963834, 40.710487],
+          [-73.965331, 40.711016]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
         "title": "Chelsea: Snacks, lost teeth, and foul furs",
         "rating": "yellow",
         "url": "https://bytheblock.net/p/chelsea-snacks-lost-teeth-and-foul-furs",
