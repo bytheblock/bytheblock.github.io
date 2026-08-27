@@ -5,11 +5,18 @@
   <title>By the Block Map</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <!-- Leaflet CSS -->
   <link
     rel="stylesheet"
     href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
     crossorigin=""
+  />
+
+  <!-- MapLibre CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.css"
   />
 
   <style>
@@ -56,90 +63,139 @@
     }
   </style>
 </head>
+
 <body>
   <div id="map"></div>
 
+  <!-- Leaflet -->
   <script
     src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
     crossorigin=""
   ></script>
 
+  <!-- MapLibre -->
+  <script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
 
-<script>
-  const map = L.map('map').setView([40.7308, -73.9973], 12);
+  <!-- Leaflet / MapLibre bridge -->
+  <script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet/leaflet-maplibre-gl.js"></script>
 
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-  attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
-  subdomains: 'abcd',
-  maxZoom: 20
-}).addTo(map);
+  <script>
+    const map = L.map('map').setView([40.7308, -73.9973], 12);
 
-  const colors = {
-    green: '#2e7d32',
-    yellow: '#c9a227',
-    red: '#c62828'
-  };
+    /*
+      OpenFreeMap Positron basemap.
+      This replaces the old CARTO light_all tile layer.
+      No CARTO API key is required.
+    */
+    L.maplibreGL({
+      style: 'https://tiles.openfreemap.org/styles/positron'
+    }).addTo(map);
 
-  function styleFeature(feature) {
-    const rating = feature.properties.rating || 'yellow';
-    return {
-      color: colors[rating],
-      weight: 6,
-      opacity: 0.9,
-      lineCap: 'round'
+    const colors = {
+      green: '#2e7d32',
+      yellow: '#c9a227',
+      red: '#c62828'
     };
-  }
 
-  let geojsonLayer;
+    function styleFeature(feature) {
+      const rating = feature.properties.rating || 'yellow';
 
-  function onEachFeature(feature, layer) {
-    const props = feature.properties;
-const linkText = props.linkText || 'Read post';
+      return {
+        color: colors[rating],
+        weight: 6,
+        opacity: 0.9,
+        lineCap: 'round'
+      };
+    }
 
-const popupHtml = `
-  <div>
-    <div><strong>${props.title}</strong></div>
-    <a class="popup-link" href="${props.url}" target="_blank" rel="noopener noreferrer">
-      ${linkText}
-    </a>
-  </div>
-`;
-    layer.bindPopup(popupHtml);
+    let geojsonLayer;
 
-    layer.on('mouseover', function () {
-      layer.setStyle({ weight: 8, opacity: 1 });
+    function onEachFeature(feature, layer) {
+      const props = feature.properties;
+      const linkText = props.linkText || 'Read post';
+
+      const popupHtml = `
+        <div>
+          <div><strong>${props.title}</strong></div>
+          <a
+            class="popup-link"
+            href="${props.url}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ${linkText}
+          </a>
+        </div>
+      `;
+
+      layer.bindPopup(popupHtml);
+
+      layer.on('mouseover', function () {
+        layer.setStyle({
+          weight: 8,
+          opacity: 1
+        });
+      });
+
+      layer.on('mouseout', function () {
+        geojsonLayer.resetStyle(layer);
+      });
+    }
+
+    fetch('blocks.geojson')
+      .then(response => response.json())
+      .then(blocks => {
+        geojsonLayer = L.geoJSON(blocks, {
+          style: styleFeature,
+          onEachFeature: onEachFeature
+        }).addTo(map);
+
+        map.fitBounds(
+          geojsonLayer.getBounds(),
+          { padding: [20, 20] }
+        );
+      });
+
+    const legend = L.control({
+      position: 'bottomright'
     });
 
-    layer.on('mouseout', function () {
-      geojsonLayer.resetStyle(layer);
-    });
-  }
+    legend.onAdd = function () {
+      const div = L.DomUtil.create('div', 'legend');
 
-  fetch('blocks.geojson')
-    .then(response => response.json())
-    .then(blocks => {
-      geojsonLayer = L.geoJSON(blocks, {
-        style: styleFeature,
-        onEachFeature: onEachFeature
-      }).addTo(map);
+      div.innerHTML = `
+        <div><strong>Blocks covered</strong></div>
 
-      map.fitBounds(geojsonLayer.getBounds(), { padding: [20, 20] });
-    });
+        <div class="legend-row">
+          <span
+            class="legend-swatch"
+            style="background:#2e7d32;"
+          ></span>
+          Solid
+        </div>
 
-  const legend = L.control({ position: 'bottomright' });
-  legend.onAdd = function () {
-    const div = L.DomUtil.create('div', 'legend');
-    div.innerHTML = `
-      <div><strong>Blocks covered</strong></div>
-      <div class="legend-row"><span class="legend-swatch" style="background:#2e7d32;"></span>Solid</div>
-      <div class="legend-row"><span class="legend-swatch" style="background:#c9a227;"></span>Not Bad</div>
-      <div class="legend-row"><span class="legend-swatch" style="background:#c62828;"></span>Meh</div>
-    `;
-    return div;
-  };
-  legend.addTo(map);
-</script>
+        <div class="legend-row">
+          <span
+            class="legend-swatch"
+            style="background:#c9a227;"
+          ></span>
+          Not Bad
+        </div>
 
+        <div class="legend-row">
+          <span
+            class="legend-swatch"
+            style="background:#c62828;"
+          ></span>
+          Meh
+        </div>
+      `;
+
+      return div;
+    };
+
+    legend.addTo(map);
+  </script>
 </body>
 </html>
