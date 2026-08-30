@@ -4,6 +4,22 @@
 {
       "type": "Feature",
       "properties": {
+        "title": "Tribeca: Outcasts and Cast Iron",
+        "rating": "green",
+        "url": "https://bytheblock.net/p/tribeca-outcasts-and-cast-iron",
+"linkText": "Chambers Street between Church Street and West Broadway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-74.008890, 40.713826],
+          [-74.010108, 40.714399]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
         "title": "Williamsburg: Lost time under the bridge",
         "rating": "green",
         "url": "https://bytheblock.net/p/williamsburg-lost-time-under-the-bridge",
