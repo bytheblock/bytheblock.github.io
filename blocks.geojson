@@ -4,6 +4,22 @@
 {
       "type": "Feature",
       "properties": {
+        "title": "Murray Hill: High end and low brow on Middle Road",
+        "rating": "yellow",
+        "url": "https://bytheblock.net/p/murray-hill-high-end-and-low-brow-on-middle-road",
+"linkText": "East 34th Street between Park and Madison Avenues"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.981322, 40.747131],
+          [-73.982942, 40.747761]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
         "title": "Tribeca: Outcasts and Cast Iron",
         "rating": "green",
         "url": "https://bytheblock.net/p/tribeca-outcasts-and-cast-iron",
