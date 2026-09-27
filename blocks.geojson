@@ -4,6 +4,22 @@
 {
       "type": "Feature",
       "properties": {
+        "title": "Chinatown: Music in the air and money on the walls",
+        "rating": "green",
+        "url": "https://bytheblock.net/p/chinatown-music-in-the-air-and-money-on-the-walls",
+"linkText": "Bayard Street between Mott Street and the Bowery"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.998488, 40.715643],
+          [-73.996868, 40.715086]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
         "title": "Murray Hill: High end and low brow on Middle Road",
         "rating": "yellow",
         "url": "https://bytheblock.net/p/murray-hill-high-end-and-low-brow-on-middle-road",
