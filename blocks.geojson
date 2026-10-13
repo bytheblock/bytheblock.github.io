@@ -4,6 +4,22 @@
 {
       "type": "Feature",
       "properties": {
+        "title": "Hell's Kitchen: An Off-Broadway second act",
+        "rating": "green",
+        "url": "https://bytheblock.net/p/hell-s-kitchen-an-off-broadway-second-act",
+"linkText": "West 47th Street between 8th and 9th Avenues"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.987615, 40.760448],
+          [-73.990297, 40.761593]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
         "title": "Chinatown: Music in the air and money on the walls",
         "rating": "green",
         "url": "https://bytheblock.net/p/chinatown-music-in-the-air-and-money-on-the-walls",
