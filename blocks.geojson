@@ -4,6 +4,22 @@
 {
       "type": "Feature",
       "properties": {
+        "title": "Midtown: Everything must go!",
+        "rating": "yellow",
+        "url": "https://bytheblock.net/p/midtown-everything-must-go",
+"linkText": "Fifth Avenue between 38th and 39th Streets"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.982277, 40.751565],
+          [-73.982728, 40.750955]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
         "title": "Hell's Kitchen: An Off-Broadway second act",
         "rating": "green",
         "url": "https://bytheblock.net/p/hell-s-kitchen-an-off-broadway-second-act",
