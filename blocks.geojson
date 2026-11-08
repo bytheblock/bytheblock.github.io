@@ -4,6 +4,22 @@
 {
       "type": "Feature",
       "properties": {
+        "title": "Tribeca: Hawkers, hucksters, and a hydrarchos",
+        "rating": "green",
+        "url": "https://bytheblock.net/p/tribeca-hawkers-hucksters-and-a-hydrarchos",
+"linkText": "Broadway between Canal and Walker streets"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-74.002517, 40.718656],
+          [-74.001895, 40.719400]
+        ]
+      }
+    }, 
+{
+      "type": "Feature",
+      "properties": {
         "title": "Midtown: Everything must go!",
         "rating": "yellow",
         "url": "https://bytheblock.net/p/midtown-everything-must-go",
